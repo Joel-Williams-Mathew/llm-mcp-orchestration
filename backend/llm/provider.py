@@ -20,6 +20,24 @@ tools = [
                 "required": ["expression"]
             }
         }
+    },
+
+    {
+        "type": "function",
+        "function": {
+            "name": "web_search",
+            "description": "Search the internet for current or unknown information.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The search query."
+                    }
+                },
+                "required": ["query"]
+            }
+        }
     }
 ]
 

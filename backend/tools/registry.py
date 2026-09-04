@@ -1,8 +1,10 @@
 from backend.tools.calculator import calculator
+from backend.tools.web_search import web_search
 
 
 TOOL_REGISTRY = {
-    "calculator": calculator
+    "calculator": calculator,
+    "web_search": web_search
 }
 
 
